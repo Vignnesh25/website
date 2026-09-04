@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Vignnesh — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="#" class="brand">JS VIGNNESH</a>
+    </div>
+    <ul class="nav-center" id="nav-menu">
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#certificates">CERTIFICATES</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="https://github.com" target="_blank" aria-label="GitHub" class="social-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+      </a>
+      <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-icon">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+      </a>
+      <button id="theme-toggle" aria-label="Toggle Theme">
+        <span class="theme-dot"></span>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-image-container">
+      <img src="portrait.jpg" alt="JS Vignnesh" class="hero-img">
+    </div>
+    <div class="hero-content">
+      <div class="hero-header">
+        <h1>JS VIGNNESH</h1>
+        <p class="subtitle">AI & DATA SCIENCE STUDENT<br>REVA UNIVERSITY</p>
+      </div>
+      <div class="hero-footer">
+        <p class="intro-text">"Building practical projects with code, data and curiosity."</p>
+        <a href="#work" class="scroll-link">SCROLL TO EXPLORE ↓</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <span class="label">ABOUT</span>
+    <div class="about-content">
+      <p class="about-lead">
+        I'm a B.Tech student specializing in Artificial Intelligence & Data Science at REVA University. I enjoy programming, exploring data, learning new technologies and turning ideas into practical projects.
+      </p>
+      <div class="about-meta">
+        <div class="meta-item">
+          <span class="meta-label">DEGREE</span>
+          <span class="meta-val">B.Tech AI & Data Science</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">INSTITUTION</span>
+          <span class="meta-val">REVA University</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">LOCATION</span>
+          <span class="meta-val">Bengaluru, India</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">STATUS</span>
+          <span class="meta-val">3rd Semester</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <span class="label">TECHNOLOGIES I WORK WITH</span>
+    <div class="skills-list">
+      <div class="skill-item" data-desc="Systems programming and foundation algorithms.">
+        <span class="skill-num">01</span>
+        <span class="skill-name">C</span>
+      </div>
+      <div class="skill-item" data-desc="Data processing, scripting, and machine learning models.">
+        <span class="skill-num">02</span>
+        <span class="skill-name">Python</span>
+      </div>
+      <div class="skill-item" data-desc="Object-oriented programming and application development.">
+        <span class="skill-num">03</span>
+        <span class="skill-name">Java</span>
+      </div>
+      <div class="skill-item" data-desc="Predictive modeling, classification, and statistical analysis.">
+        <span class="skill-num">04</span>
+        <span class="skill-name">Machine Learning</span>
+      </div>
+      <div class="skill-item" data-desc="Data extraction, cleaning, and exploratory analysis.">
+        <span class="skill-num">05</span>
+        <span class="skill-name">Data Science</span>
+      </div>
+      <div class="skill-item" data-desc="Real-time computer vision and image processing.">
+        <span class="skill-num">06</span>
+        <span class="skill-name">OpenCV</span>
+      </div>
+      <div class="skill-item" data-desc="Structured markup and responsive editorial layouts.">
+        <span class="skill-num">07</span>
+        <span class="skill-name">HTML / CSS</span>
+      </div>
+      <div class="skill-item" data-desc="Interactive front-end logic and dynamic DOM handling.">
+        <span class="skill-num">08</span>
+        <span class="skill-name">JavaScript</span>
+      </div>
+      <div class="skill-item" data-desc="Version control, team workflows, and code hosting.">
+        <span class="skill-num">09</span>
+        <span class="skill-name">Git / GitHub</span>
+      </div>
+    </div>
+    <div id="skill-hover-card" class="skill-hover-card">Select or hover over a technology to view details.</div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work-section">
+    <span class="label">SELECTED WORK</span>
+
+    <!-- Project 01 -->
+    <article class="project-layout layout-left">
+      <div class="project-img-wrapper">
+        <img src="car-project.jpg" alt="Object Detection Car" class="project-img">
+      </div>
+      <div class="project-info">
+        <span class="project-num">PROJECT 01</span>
+        <h2>OBJECT DETECTION & ACCIDENT PREVENTION CAR</h2>
+        <p class="project-desc">A smart vehicle prototype designed to detect obstacles and help prevent accidents using sensors, programming and computer vision.</p>
+        <div class="tags">
+          <span>C</span><span>Python</span><span>OpenCV</span><span>Sensors</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="btn-link">VIEW PROJECT →</a>
+          <a href="#" class="btn-link">GITHUB →</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Project 02 -->
+    <article class="project-layout layout-right">
+      <div class="project-info">
+        <span class="project-num">PROJECT 02</span>
+        <h2>SMART GARAGE USING RFID</h2>
+        <p class="project-desc">An automated garage access system using RFID technology for secure vehicle identification and entry management.</p>
+        <div class="tags">
+          <span>RFID</span><span>Arduino</span><span>C</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="btn-link">VIEW PROJECT →</a>
+          <a href="#" class="btn-link">GITHUB →</a>
+        </div>
+      </div>
+      <div class="project-img-wrapper">
+        <img src="garage-project.jpg" alt="Smart Garage RFID" class="project-img">
+      </div>
+    </article>
+
+    <!-- Project 03 -->
+    <article class="project-layout layout-span">
+      <div class="project-img-wrapper">
+        <img src="data-project.jpg" alt="Data Analysis Visualization" class="project-img">
+      </div>
+      <div class="project-info span-info">
+        <div class="span-left">
+          <span class="project-num">PROJECT 03</span>
+          <h2>DATA ANALYSIS</h2>
+          <div class="tags">
+            <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+          </div>
+        </div>
+        <div class="span-right">
+          <p class="project-desc">A data analysis project focused on exploring datasets, extracting insights and presenting information through clear visualizations.</p>
+          <div class="project-links">
+            <a href="#" class="btn-link">VIEW PROJECT →</a>
+            <a href="#" class="btn-link">GITHUB →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Image Grid -->
+  <section class="gallery-section">
+    <span class="label">VISUAL ARCHIVE</span>
+    <div class="asymmetric-grid">
+      <div class="grid-item item-tall"><img src="grid1.jpg" alt="Prototype hardware"></div>
+      <div class="grid-item"><img src="grid2.jpg" alt="Code setup"></div>
+      <div class="grid-item"><img src="grid3.jpg" alt="Data visualization dashboard"></div>
+      <div class="grid-item item-wide"><img src="grid4.jpg" alt="Circuit workspace"></div>
+      <div class="grid-item"><img src="grid5.jpg" alt="Documentation details"></div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certificates" class="certificates-section">
+    <span class="label">CERTIFICATIONS</span>
+    <div class="cert-grid">
+      <div class="cert-card">
+        <div class="cert-preview">
+          <img src="cert-ibm.jpg" alt="IBM SkillsBuild Certificate">
+        </div>
+        <div class="cert-meta">
+          <h3>IBM SkillsBuild</h3>
+          <p>Data Science</p>
+        </div>
+      </div>
+      <div class="cert-card">
+        <div class="cert-preview">
+          <img src="cert-wadhwani.jpg" alt="Wadhwani Foundation Certificate">
+        </div>
+        <div class="cert-meta">
+          <h3>Wadhwani Foundation</h3>
+          <p>Business Essentials</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education-section">
+    <span class="label">EDUCATION</span>
+    <div class="timeline">
+      <div class="timeline-row">
+        <div class="timeline-year">2025 — 2029</div>
+        <div class="timeline-detail">
+          <h3>REVA UNIVERSITY</h3>
+          <p>B.Tech in Artificial Intelligence & Data Science</p>
+          <span class="location">Bengaluru, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Banner -->
+  <section class="github-section">
+    <span class="label">CODE / BUILD / LEARN</span>
+    <p class="github-lead">I document my programming practice, projects and experiments on GitHub.</p>
+    <a href="https://github.com" target="_blank" class="github-btn">VIEW MY GITHUB →</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="contact-left">
+      <span class="label">LET'S WORK TOGETHER</span>
+      <h2>Have an idea, project or opportunity?<br>Let's connect.</h2>
+      <div class="contact-direct">
+        <a href="mailto:vignneshjs2527@gmail.com" class="email-link">vignneshjs2527@gmail.com</a>
+        <div class="social-links">
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="mailto:vignneshjs2527@gmail.com">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-right">
+      <form class="contact-form" onsubmit="event.preventDefault();">
+        <div class="form-group">
+          <label for="name">NAME</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">MESSAGE</label>
+          <textarea id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">SEND MESSAGE →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-brand">
+      <span class="footer-title">JS VIGNNESH</span>
+      <p>AI & Data Science Student<br>REVA University</p>
+    </div>
+    <div class="footer-copy">
+      © 2026 JS Vignnesh
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
